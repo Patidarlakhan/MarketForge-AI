@@ -1,0 +1,26 @@
+/* App-level component styles */
+
+.stat-card {
+  text-align: center;
+  padding: var(--space-lg);
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.125rem;
+  background: var(--bg-primary);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+}
+
+.stat-value {
+  font-size: var(--font-size-2xl);
+  font-weight: 800;
+  color: var(--text-primary);
+  line-height: 1;
+}
+
+.stat-label {
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  color: var(--text-secondary);
+}
